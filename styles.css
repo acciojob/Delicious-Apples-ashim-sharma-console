@@ -58,7 +58,7 @@ body {
       color: #fff;
       font-size: 20px;
       cursor: pointer;
-	 
+	
     }
 
     .product__info {
@@ -129,6 +129,25 @@ body {
     .add-to-cart:hover {
       background-color: #d32f2f;
     }
+.description h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+	
+}
+
+.description ul {
+  padding-left: 20px;
+  color: #555;
+  font-size: 14px;
+	
+}
+
+.description ul li {
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
 .add-to-cart {
   margin-top: 30px;
   padding: 15px;
