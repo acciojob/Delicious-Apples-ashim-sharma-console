@@ -1,1 +1,130 @@
 /* your code here */
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #00e676;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .product {
+      background-color: #fff;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      max-width: 900px;
+    }
+
+    .product__photo {
+      background: linear-gradient(#b9fbc0, #d2f6c5);
+      padding: 30px;
+      flex: 1;
+      position: relative;
+    }
+
+    .photo-main img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .photo-album ul {
+      display: flex;
+      margin-top: 15px;
+      padding: 0;
+      gap: 10px;
+      list-style: none;
+    }
+
+    .photo-album li img {
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+      border: 2px solid #ccc;
+      object-fit: cover;
+    }
+
+    .controls {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .controls i {
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .product__info {
+      flex: 1;
+      padding: 30px;
+    }
+
+    .title h1 {
+      font-size: 28px;
+      margin: 0;
+      color: #333;
+    }
+
+    .title span {
+      color: #999;
+      font-size: 14px;
+    }
+
+    .price {
+      color: #e53935;
+      font-size: 28px;
+      margin: 15px 0;
+      font-weight: bold;
+    }
+
+    .variant h3 {
+      font-size: 16px;
+      margin: 20px 0 10px;
+    }
+
+    .variant ul {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .variant li img {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      cursor: pointer;
+    }
+
+    .description h3 {
+      font-size: 16px;
+      margin: 20px 0 10px;
+    }
+
+    .description ul {
+      padding-left: 20px;
+      color: #555;
+    }
+
+    .add-to-cart {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #ff3d00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .add-to-cart:hover {
+      background-color: #d32f2f;
+    }
